@@ -1305,11 +1305,6 @@ multer@^1.4.2:
     type-is "^1.6.4"
     xtend "^4.0.0"
 
-mutter@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/mutter/-/mutter-1.0.1.tgz#8bd9c98f6ea664eb3f202b2b9e39f343075316cd"
-  integrity sha1-i9nJj26mZOs/ICsrnjnzQwdTFs0=
-
 nan@^2.12.1:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
