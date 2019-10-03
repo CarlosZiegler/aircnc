@@ -5,7 +5,13 @@ const User = require('../models/User')
 
 module.exports= {
 
+    async index(request, response) {
+        const { tech } = request.query;
 
+        const spots = await Spot.find({ techs:tech });
+        return response.json(spots);
+
+    },
 
     async store(request, response) {
         //const {email} = require.body;
