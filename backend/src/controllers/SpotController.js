@@ -12,6 +12,7 @@ module.exports= {
         return response.json(spots);
 
     },
+   
 
     async store(request, response) {
         //const {email} = require.body;
